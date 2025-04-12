@@ -9,13 +9,6 @@ This repository contains the PyTorch implementation for the paper
   <img width="600" src="imgs/flow_chart.png">
 </p>
 
-## Requirements
-
-The code requires Python 3.10 or later. All required dependencies are listed in [requirements.txt](requirements.txt). To install them, run:
-
-```bash
-pip install -r requirements.txt
-```
 
 ## Training and Evaluation
 
@@ -25,7 +18,7 @@ pip install -r requirements.txt
 python src/{model_name}/train.py
 ```
 
-### 2. Test the Model
+### 2. Evaluate the Model
 
 ```bash
 python src/{model_name}/test.py
@@ -36,12 +29,12 @@ python src/{model_name}/test.py
 If you use this code or find our work helpful, please cite:
 
 ```bibtex
-@article{zheng2024probabilistic,
+@article{zheng2025probabilistic,
   title={Probabilistic Traffic Forecasting with Dynamic Regression},
-  author={Zheng, Vincent Zhihao and Sun, Lijun},
+  author={Zheng, Vincent Zhihao and Choi, Seongjin and Sun, Lijun},
   journal={Transportation Science},
-  year={2024},
-  publisher={INFORMS},
-  doi={10.1287/trsc.2024.0560}
+  year={2025},
+  publisher={INFORMS}
 }
+
 ```
