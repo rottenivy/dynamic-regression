@@ -4,5 +4,8 @@
 *.pptx
 *.pyc
 *.sh
+*.ipynb
 /LargeST
 outputs
+/TSRC
+__pycache__
